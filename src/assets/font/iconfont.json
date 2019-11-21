@@ -1,0 +1,23 @@
+{
+  "id": "1444262",
+  "name": "vue-cli",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5278054",
+      "name": "航空航天-aerospace-火箭-ro",
+      "font_class": "hangkonghangtian-aerospace-huojian-ro",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "10867329",
+      "name": "小火箭 发射",
+      "font_class": "changyongtubiao-mianxing-",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a {
+    -webkit-backface-visibility: hidden;
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+body,html {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+}
+*{
+    box-sizing: border-box;
+}
+#app {
+    position: absolute;
+    font-family: Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    
+    width:100%;
+}
+.header-nav{
+    position: fixed;
+    top: 0;
+    -webkit-transition: top .6s ease;
+    transition: top .6s ease;
+    width: 100%;
+    height: 50px;
+    background: rgb(165, 42, 165,0.6);
+    color: #2e75bd;
+    z-index: 100
+}
+.header-nav ul{
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:flex;
+    line-height:50px;
+    padding: 0 25%;
+}
+.header-nav ul li{
+    width: 20%;
+    cursor: pointer
+}
+
+.header-nav ul li a{
+    display: inline-block;
+    width: 100%;
+    color: rgba(255, 255, 255,0.9);
+    font-size: 1.2rem;
+    
+}
+
+
+
+.header-nav ul li .nav-border{
+    height: 3px;
+    background-color: rgb(255, 8, 111);
+    width: 0;
+    box-shadow: 0px 2px 8px  rgb(255, 8, 111);
+    -webkit-transition: width .6s ease; 
+    transition: width .6s ease;
+}
+
+.header-nav ul li .nav-border.hover-active,
+.header-nav ul li .nav-border.click-active
+{
+    width: 100%;
+}
+
+.home{
+    color: #000;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bg-wrapper .bg{
+    width: 100%;
+    height: 50rem;
+    background: url(https://celebmafia.com/wp-content/uploads/2017/12/taylor-swift-wallpapers-18.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.bg-wrapper .txt{
+    position: fixed;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    z-index:1
+}
+
+.home .container{ 
+    position: relative;
+    background-color: rgba(255, 255, 255);
+    height: 100%;
+    padding: 100px;
+    
+}
+
+.home .container .article-list{
+    
+    background: transparent;
+     
+}
+
+.article-wrapper{
+    margin-top:2rem;
+    padding: 1rem 5rem;  
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 0 20px rgb(218, 218, 218);
+}
+.article-wrapper .text{
+    text-align: left;
+    margin-right: 1rem;
+    width: 100%;
+    position: relative;
+    
+}
+.article-wrapper .text .summary{
+    
+    padding-top: 0.2rem;
+    height:100px;
+    overflow: hidden;
+}
+.article-wrapper .text .title{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 5px;
+}
+.article-wrapper .pic{
+     overflow: hidden;
+}
+
+.catalog-wrapper{
+    text-align: left;
+    width: 70%;
+    margin: 100px auto 0;
+}
+ .article-detail,
+ .article{
+    margin-top:50px;
+}
+.article-detail h1{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+.article-detail{
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 32px;
+}
+.markdown-body {
+    text-align: left;
+}
+.icon-container{
+    display: inline;
+}
+.el-card__body {
+    line-height: normal;
+}
+.catalog-card h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.catalog-card{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.el-timeline-item__tail {
+    border-left: 2px solid rgb(112, 62, 108,0.5) !important;
+}
+.el-timeline-item__node{
+    background-color: rgb(247, 95, 128) !important;
+}
+
+
+.iconfont {
+        color: purple;
+        width: 1em;
+        height: 1em;
+        vertical-align: -.15em;
+        fill: currentColor;
+        overflow: hidden;
+    
+  }
+  @font-face {
+    font-family: 'iconfont';  /* project id 1444262 */
+    src: url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.eot');
+    src: url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1444262_5wvkxd0wiwm.svg#iconfont') format('svg');
+  }
